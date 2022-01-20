@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  2.5%;
   color: #FEF2BF;
 }
 
@@ -25,6 +25,20 @@ body {
   color:#000000;
   background-color:#00ff44;
   padding:20px;
+}
+
+.startGame {
+  font-family:'Comic Sans MS';
+   font-size:30px;
+   font-weight:bold;
+   text-indent:20px;
+   letter-spacing:10px;
+   line-height:80px;
+   text-align:center;
+   color:#000000;
+   background-color:#00e6ff;
+   padding:20px;
+   margin: 20px;
 }
 
 .btn {
