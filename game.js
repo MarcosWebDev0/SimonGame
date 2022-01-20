@@ -27,7 +27,13 @@ $(document).keydown(function() {
   if (gamePattern.length === 0) {
     nextSequence();
   }
-})
+});
+
+$('.startGame').click(function(){
+  if (gamePattern.length === 0){
+    nextSequence();
+  }
+});
 
 function nextSequence() {
   userClickedPattern = [];
